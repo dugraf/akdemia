@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+body
+{
+    background-image: url('../imagens/peito-wallpaper.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section
+{
+    margin: 20px 500px;
+    background-color: rgba(255, 255, 255, 0.658);
+    text-align: center;
+    border-radius: 30px;
+}
+
+section > h1
+{
+    font-size: 50px;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+section > h1#top
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.botao
+{
+    text-align: center;
+}
+
+#botao_gerar
+{
+    width: 150px;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+#botao_gerar:hover
+{
+    width: 200px;
+}
+
+#botao_gerar::after
+{
+    background-color: red;
+}

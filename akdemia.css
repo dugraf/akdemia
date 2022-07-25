@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+body
+{
+
+}
+
+div
+{
+    background-color: red;
+    margin: 100px auto;
+    padding: 30px;
+    width: 500px;
+    
+    text-align: center;
+    transition: .6s;
+    border-radius: 10px;
+}
+
+div:hover
+{
+    padding: 50px;
+    transition: .6s;
+}
+
+a
+{
+    font-style: normal;
+    color: black;
+    text-decoration: none;
+}
