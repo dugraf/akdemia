@@ -74,90 +74,90 @@ function fotosPeito()
     
     if (array_peito_superior[3] == 'peito 45')
     {
-        document.getElementById("img1").innerHTML = "<img src = '../imagens/peito/supino-inclinado-com-halteres.gif'>"
+        document.getElementById("img1").innerHTML = "<img src = '../../imagens/peito/supino-inclinado-com-halteres.gif'>"
     }
 
         else if (array_peito_superior[3] == 'peito desenvolvimento')
     {
-        document.getElementById("img1").innerHTML = "<img src = '../imagens/peito/desenvolvimento-para-ombros-com-halteres.gif'>"
+        document.getElementById("img1").innerHTML = "<img src = '../../imagens/peito/desenvolvimento-para-ombros-com-halteres.gif'>"
     }
 
     else if (array_peito_superior[3] == 'maquina peito superior')
     {
-        document.getElementById("img1").innerHTML = "<img src = '../imagens/peito/maquina-peito-superior.png'>"
+        document.getElementById("img1").innerHTML = "<img src = '../../imagens/peito/maquina-peito-superior.png'>"
     }
 
 //
     
     if (array_peito_superior[0] == 'peito 45')
     {
-        document.getElementById("img1").innerHTML = "<img src = '../imagens/peito/supino-inclinado-com-halteres.gif'>"
+        document.getElementById("img1").innerHTML = "<img src = '../../imagens/peito/supino-inclinado-com-halteres.gif'>"
     }
 
     else if (array_peito_superior[0] == 'peito desenvolvimento')
     {
-        document.getElementById("img1").innerHTML = "<img src = '../imagens/peito/desenvolvimento-para-ombros-com-halteres.gif'>"
+        document.getElementById("img1").innerHTML = "<img src = '../../imagens/peito/desenvolvimento-para-ombros-com-halteres.gif'>"
     }
 
     else if (array_peito_superior[0] == 'maquina peito superior')
     {
-        document.getElementById("img1").innerHTML = "<img src = '../imagens/peito/maquina-peito-superior.png'>"
+        document.getElementById("img1").innerHTML = "<img src = '../../imagens/peito/maquina-peito-superior.png'>"
     }
 
 //
 
     if (array_peito_superior[1] == 'peito 45')
     {
-        document.getElementById("img2").innerHTML = "<img src = '../imagens/peito/supino-inclinado-com-halteres.gif'>"
+        document.getElementById("img2").innerHTML = "<img src = '../../imagens/peito/supino-inclinado-com-halteres.gif'>"
     }
 
     else if (array_peito_superior[1] == 'peito desenvolvimento')
     {
-        document.getElementById("img2").innerHTML = "<img src = '../imagens/peito/desenvolvimento-para-ombros-com-halteres.gif'>"
+        document.getElementById("img2").innerHTML = "<img src = '../../imagens/peito/desenvolvimento-para-ombros-com-halteres.gif'>"
     }
 
     else if (array_peito_superior[1] == 'maquina peito superior')
     {
-        document.getElementById("img2").innerHTML = "<img src = '../imagens/peito/maquina-peito-superior.png'>"
+        document.getElementById("img2").innerHTML = "<img src = '../../imagens/peito/maquina-peito-superior.png'>"
     }
 
     else if (array_peito_superior[1] == 'crossover parte superior')
     {
-        document.getElementById("img2").innerHTML = "<img src = '../imagens/peito/crossover-parte-superior.png'>"
+        document.getElementById("img2").innerHTML = "<img src = '../../imagens/peito/crossover-parte-superior.png'>"
     }
 
 //
 
     if (array_peito_superior[2] == 'peito 45')
     {
-        document.getElementById("img4").innerHTML = "<img src = '../imagens/peito/supino-inclinado-com-halteres.gif'>"
+        document.getElementById("img4").innerHTML = "<img src = '../../imagens/peito/supino-inclinado-com-halteres.gif'>"
     }
 
     else if (array_peito_superior[2] == 'peito desenvolvimento')
     {
-        document.getElementById("img4").innerHTML = "<img src = '../imagens/peito/desenvolvimento-para-ombros-com-halteres.gif'>"
+        document.getElementById("img4").innerHTML = "<img src = '../../imagens/peito/desenvolvimento-para-ombros-com-halteres.gif'>"
     }
 
     else if (array_peito_superior[2] == 'maquina peito superior')
     {
-        document.getElementById("img4").innerHTML = "<img src = '../imagens/peito/maquina-peito-superior.png'>"
+        document.getElementById("img4").innerHTML = "<img src = '../../imagens/peito/maquina-peito-superior.png'>"
     }
 
     else if (array_peito_superior[2] == 'crossover parte superior')
     {
-        document.getElementById("img4").innerHTML = "<img src = '../imagens/peito/crossover-parte-superior.png'>"
+        document.getElementById("img4").innerHTML = "<img src = '../../imagens/peito/crossover-parte-superior.png'>"
     }
 
     /*FOTOS PEITO MEDIAL*/
 
     if (array_peito_medial[0] == 'supino reto')
     {
-        document.getElementById("img3").innerHTML = "<img src = '../imagens/peito/supino-reto.gif'>"
+        document.getElementById("img3").innerHTML = "<img src = '../../imagens/peito/supino-reto.gif'>"
     }
 
     else if (array_peito_medial[0] == 'voador')
     {
-        document.getElementById("img3").innerHTML = "<img src = '../imagens/peito/voador-no-aparelho.gif'>"
+        document.getElementById("img3").innerHTML = "<img src = '../../imagens/peito/voador-no-aparelho.gif'>"
     }
 }
 
@@ -175,50 +175,50 @@ function fotosTriceps()
 {
     if (array_triceps[0] == 'triceps no banco')
     {
-        document.getElementById("img5").innerHTML = "<img src = '../imagens/triceps/triceps-testa-deitado-no-banco-com-barra.gif'>"
+        document.getElementById("img5").innerHTML = "<img src = '../../imagens/triceps/triceps-testa-deitado-no-banco-com-barra.gif'>"
     }
 
     else if (array_triceps[0] == 'polia alta com puxador')
     {
-        document.getElementById("img5").innerHTML = "<img src = '../imagens/triceps/puxador.png'>"
+        document.getElementById("img5").innerHTML = "<img src = '../../imagens/triceps/puxador.png'>"
     }
 
     else if (array_triceps[0] == 'polia alta com corda')
     {
-        document.getElementById("img5").innerHTML = "<img src = '../imagens/triceps/triceps-puxada-no-pulley-com-corda.gif'>"
+        document.getElementById("img5").innerHTML = "<img src = '../../imagens/triceps/triceps-puxada-no-pulley-com-corda.gif'>"
     }
 
     if (array_triceps[1] == 'triceps no banco')
     {
-        document.getElementById("img6").innerHTML = "<img src = '../imagens/triceps/triceps-testa-deitado-no-banco-com-barra.gif'>"
+        document.getElementById("img6").innerHTML = "<img src = '../../imagens/triceps/triceps-testa-deitado-no-banco-com-barra.gif'>"
     }
 
     else if (array_triceps[1] == 'polia alta com puxador')
     {
-        document.getElementById("img6").innerHTML = "<img src = '../imagens/triceps/puxador.png'>"
+        document.getElementById("img6").innerHTML = "<img src = '../../imagens/triceps/puxador.png'>"
     }
 
     else if (array_triceps[1] == 'polia alta com corda')
     {
-        document.getElementById("img6").innerHTML = "<img src = '../imagens/triceps/triceps-puxada-no-pulley-com-corda.gif'>"
+        document.getElementById("img6").innerHTML = "<img src = '../../imagens/triceps/triceps-puxada-no-pulley-com-corda.gif'>"
     }
 
     if (array_triceps[2] == 'triceps no banco')
     {
-        document.getElementById("img7").innerHTML = "<img src = '../imagens/triceps/triceps-testa-deitado-no-banco-com-barra.gif'>"
+        document.getElementById("img7").innerHTML = "<img src = '../../imagens/triceps/triceps-testa-deitado-no-banco-com-barra.gif'>"
     }
 
     else if (array_triceps[2] == 'polia alta com puxador')
     {
-        document.getElementById("img7").innerHTML = "<img src = '../imagens/triceps/puxador.png'>"
+        document.getElementById("img7").innerHTML = "<img src = '../../imagens/triceps/puxador.png'>"
     }
 
     else if (array_triceps[2] == 'polia alta com corda')
     {
-        document.getElementById("img7").innerHTML = "<img src = '../imagens/triceps/triceps-puxada-no-pulley-com-corda.gif'>"
+        document.getElementById("img7").innerHTML = "<img src = '../../imagens/triceps/triceps-puxada-no-pulley-com-corda.gif'>"
     }
 
-    document.getElementById("img8").innerHTML = "<img src = '../imagens/triceps/triceps-puxada-no-pulley-com-corda.gif'>"
+    document.getElementById("img8").innerHTML = "<img src = '../../imagens/triceps/triceps-puxada-no-pulley-com-corda.gif'>"
 }
 
 function arrayAleatoria(n)

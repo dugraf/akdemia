@@ -8,7 +8,6 @@
 
 body
 {
-    background-image: url('../imagens/peito-wallpaper.png');
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,9 +62,4 @@ section > h1#top
 #botao_gerar:hover
 {
     width: 200px;
-}
-
-#botao_gerar::after
-{
-    background-color: red;
 }
