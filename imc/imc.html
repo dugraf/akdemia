@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular IMC</title>
+    <link rel="stylesheet" href="../akdemia.css">
+</head>
+<body>
+    <h1>Calculo IMC</h1>
+
+    <p>Qual o seu peso?</p>
+    <input type="number" id="peso">
+
+
+    <p>Qual a sua altura? (em metros)</p>
+    <input type="number" id="altura">
+<br>
+    <input type="button" value="CALCULAR" onclick="calcular()">
+    <input type="button" value="VOLTAR" onclick="location.href='../index.html'">
+
+    <p id="res"></p>
+
+    <h2 id="h2"></h2>
+    <p id="resultado"></p>
+</body>
+
+    <script>
+        var peso = document.getElementById("peso")
+        var altura = document.getElementById("altura")
+        var res = document.getElementById("res")
+        var resultado = document.getElementById("resultado")
+        var h2 = document.getElementById("h2")
+        var imc
+
+        function calcular()
+        {
+            imc = peso.value / (altura.value * altura.value)
+
+            res.innerHTML = `${imc.toFixed(1)}`
+
+            conferir()
+        }
+
+        function conferir()
+        {
+            h2.innerHTML = 'RESULTADO'
+            
+            if (imc < 18.5)
+            {
+                resultado.innerHTML = 'Abaixo do peso'
+            }
+
+            else if (imc > 18.5 && imc < 24.9)
+            {
+                resultado.innerHTML = 'Peso normal'
+            }
+
+            else if (imc > 25 && imc < 29.9)
+            {
+                resultado.innerHTML = 'Excesso de peso'
+            }
+
+            else if (imc > 30)
+            {
+                resultado.innerHTML = 'Obesidade'
+            }
+        }
+    </script>
+
+</html>
