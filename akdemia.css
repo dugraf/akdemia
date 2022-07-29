@@ -67,6 +67,13 @@ div:hover
     background-position: center;
 }
 
+#posterior:hover
+{
+    background-image: url("imagens/posterior-wallpaper.png");
+    background-size: cover;
+    background-position: center;
+}
+
 #botao
 {
     text-align: center;
@@ -91,4 +98,14 @@ div:hover
 #botao:hover
 {
     width: 200px;
+}
+
+#resultado
+{
+    text-align: center;
+}
+
+#h2
+{
+    text-align: center;
 }

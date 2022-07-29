@@ -50,21 +50,25 @@
             if (imc < 18.5)
             {
                 resultado.innerHTML = 'Abaixo do peso'
+                resultado.style.backgroundColor = 'lightcoral'
             }
 
             else if (imc > 18.5 && imc < 24.9)
             {
                 resultado.innerHTML = 'Peso normal'
+                resultado.style.backgroundColor = 'lightgreen'
             }
 
             else if (imc > 25 && imc < 29.9)
             {
                 resultado.innerHTML = 'Excesso de peso'
+                resultado.style.backgroundColor = 'lightsalmon'
             }
 
             else if (imc > 30)
             {
                 resultado.innerHTML = 'Obesidade'
+                resultado.style.backgroundColor = 'lightcoral'
             }
         }
     </script>
